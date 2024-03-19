@@ -70,3 +70,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+WorldsBestPaperBallThrower/Library/
+WorldsBestPaperBallThrower/UserSettings/
+WorldsBestPaperBallThrower/Logs/
+WorldsBestPaperBallThrower/Packages/packages-lock.json
+WorldsBestPaperBallThrower/.vsconfig
+WorldsBestPaperBallThrower/Temp/Burst/burst-aotz72t5b4y.qii/lib_burst_generated_part_89425a97f3f500fa810ad03f0c382542.gbc
+WorldsBestPaperBallThrower/Temp/
