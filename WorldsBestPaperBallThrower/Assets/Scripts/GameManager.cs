@@ -34,7 +34,13 @@ public class GameManager : MonoBehaviour
     private Vector2 direction; // Direction of the force
     private float distance; // Distance the drag traveled
 
+    /// <summary>
+    /// isGameRunning controls if the entire gameplay can be played or not 
+    /// </summary>
     private bool isGameRunning = false;
+    /// <summary>
+    /// isGameComplete flags if the game completed after player pushed the ball inside the bucket
+    /// </summary>
     private bool isGameComplete = false;
     /// <summary>
     /// 0 - Level Setting has not started
@@ -107,10 +113,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
+    /// <summary>
+    /// Update the next level wrt levelIndex within time
+    /// </summary>
+    /// <param name="levelIndex"></param>
+    /// <param name="time"></param>
+    /// <returns></returns>
     private IEnumerator UpdateLevel(int levelIndex, float time)
     {
+
         levelSetStatus = 1;
+
+        yield return new WaitForSeconds(2f);
 
         ballRigidBody.velocity = Vector2.zero;
         bucket.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
