@@ -78,3 +78,6 @@ WorldsBestPaperBallThrower/.vsconfig
 WorldsBestPaperBallThrower/Temp/Burst/burst-aotz72t5b4y.qii/lib_burst_generated_part_89425a97f3f500fa810ad03f0c382542.gbc
 WorldsBestPaperBallThrower/Temp/
 WorldsBestPaperBallThrower/obj/
+WorldsBestPaperBallThrower/Builds/
+WorldsBestPaperBallThrower/ProjectSettings/BurstAotSettings_Android.json
+WorldsBestPaperBallThrower/ProjectSettings/CommonBurstAotSettings.json
