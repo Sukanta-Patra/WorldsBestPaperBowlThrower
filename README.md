@@ -1,7 +1,7 @@
 # WorldsBestPaperBowlThrower
 Throw your paper bowl accurately in the bucket to win.
 
-#2 How to Navigate the code?
+## H2 How to Navigate the code?
 - Ideally ensure you run this project in Unity 2021.3.30f1 LTS.
 - Switch to Android Platform from File > Build Settings.
 - Press Play to play the game in editor.
